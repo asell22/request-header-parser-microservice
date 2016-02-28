@@ -17,6 +17,6 @@ app.get('/', function(req, res) {
     });
 });
 
-app.listen(process.env.PORT, process.env.IP, function(){
+app.listen(process.env.PORT, function(){
     console.log("Express server running on port", process.env.PORT);
 });
